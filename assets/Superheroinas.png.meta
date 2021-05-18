@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "caa978cc-ce1e-425b-959d-26938533b1fe",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1920,
+  "height": 1080,
+  "platformSettings": {},
+  "subMetas": {
+    "Superheroinas": {
+      "ver": "1.0.4",
+      "uuid": "78188961-4b53-443b-9d42-13ef2c85fcdd",
+      "rawTextureUuid": "caa978cc-ce1e-425b-959d-26938533b1fe",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 1920,
+      "height": 1080,
+      "rawWidth": 1920,
+      "rawHeight": 1080,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

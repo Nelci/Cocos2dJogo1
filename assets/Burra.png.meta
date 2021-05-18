@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "cd65d99c-1877-4087-b5e8-4a08bd0757f7",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1654,
+  "height": 1654,
+  "platformSettings": {},
+  "subMetas": {
+    "Burra": {
+      "ver": "1.0.4",
+      "uuid": "0cdd0c91-6b78-4d3e-81d3-e6d586da8589",
+      "rawTextureUuid": "cd65d99c-1877-4087-b5e8-4a08bd0757f7",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 18,
+      "offsetY": 18.5,
+      "trimX": 124,
+      "trimY": 78,
+      "width": 1442,
+      "height": 1461,
+      "rawWidth": 1654,
+      "rawHeight": 1654,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

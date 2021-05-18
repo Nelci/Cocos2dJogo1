@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "127ad207-df85-47bf-9cc2-485582c4d89a",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1654,
+  "height": 1654,
+  "platformSettings": {},
+  "subMetas": {
+    "Louca": {
+      "ver": "1.0.4",
+      "uuid": "e0a8056a-9fad-4bf4-9702-0c897b83da8b",
+      "rawTextureUuid": "127ad207-df85-47bf-9cc2-485582c4d89a",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 17.5,
+      "offsetY": 18.5,
+      "trimX": 124,
+      "trimY": 78,
+      "width": 1441,
+      "height": 1461,
+      "rawWidth": 1654,
+      "rawHeight": 1654,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

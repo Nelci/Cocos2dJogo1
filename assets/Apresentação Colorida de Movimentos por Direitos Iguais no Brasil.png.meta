@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "94c65b60-a767-4bed-a19b-7fb00caa3a12",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1920,
+  "height": 1080,
+  "platformSettings": {},
+  "subMetas": {
+    "Apresentação Colorida de Movimentos por Direitos Iguais no Brasil": {
+      "ver": "1.0.4",
+      "uuid": "b3733d91-ff49-4436-8f2f-d6095f557d2e",
+      "rawTextureUuid": "94c65b60-a767-4bed-a19b-7fb00caa3a12",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -43,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 1834,
+      "height": 1080,
+      "rawWidth": 1920,
+      "rawHeight": 1080,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

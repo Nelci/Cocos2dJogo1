@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "ade87286-b0ff-4bf2-beb7-48a8d093bdb7",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1654,
+  "height": 1654,
+  "platformSettings": {},
+  "subMetas": {
+    "Vaga": {
+      "ver": "1.0.4",
+      "uuid": "3b3ffe5f-9b6d-44b8-baa0-af23d21f9c11",
+      "rawTextureUuid": "ade87286-b0ff-4bf2-beb7-48a8d093bdb7",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 18,
+      "offsetY": 18.5,
+      "trimX": 124,
+      "trimY": 78,
+      "width": 1442,
+      "height": 1461,
+      "rawWidth": 1654,
+      "rawHeight": 1654,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

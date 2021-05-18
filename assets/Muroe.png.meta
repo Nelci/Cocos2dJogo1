@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "c0db36ec-44be-408f-9b1b-563b354f4655",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1654,
+  "height": 1654,
+  "platformSettings": {},
+  "subMetas": {
+    "Muroe": {
+      "ver": "1.0.4",
+      "uuid": "04795841-4422-41f0-84a8-19804efb0c25",
+      "rawTextureUuid": "c0db36ec-44be-408f-9b1b-563b354f4655",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": -1,
+      "trimX": 3,
+      "trimY": 435,
+      "width": 1647,
+      "height": 786,
+      "rawWidth": 1654,
+      "rawHeight": 1654,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

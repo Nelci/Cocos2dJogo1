@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "65b614b5-3a9c-4aef-a603-07fc5408f953",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1654,
+  "height": 1654,
+  "platformSettings": {},
+  "subMetas": {
+    "Vilao1": {
+      "ver": "1.0.4",
+      "uuid": "605299fa-8882-44b1-8ce4-7a2c444a36b0",
+      "rawTextureUuid": "65b614b5-3a9c-4aef-a603-07fc5408f953",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 118.5,
+      "offsetY": 1.5,
+      "trimX": 481,
+      "trimY": 269,
+      "width": 929,
+      "height": 1113,
+      "rawWidth": 1654,
+      "rawHeight": 1654,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

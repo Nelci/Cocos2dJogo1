@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "78d05fe7-e13f-483c-89d9-3214984424d0",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1654,
+  "height": 1654,
+  "platformSettings": {},
+  "subMetas": {
+    "briga34": {
+      "ver": "1.0.4",
+      "uuid": "aa1bc70d-e789-4422-98d2-469343803a5d",
+      "rawTextureUuid": "78d05fe7-e13f-483c-89d9-3214984424d0",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -2,
+      "offsetY": 0,
+      "trimX": 140,
+      "trimY": 1,
+      "width": 1370,
+      "height": 1652,
+      "rawWidth": 1654,
+      "rawHeight": 1654,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
