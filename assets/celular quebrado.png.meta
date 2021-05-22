@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "00aa1b09-ac46-4a99-aaf5-ee3a404aeae4",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1654,
+  "height": 1654,
+  "platformSettings": {},
+  "subMetas": {
+    "celular quebrado": {
+      "ver": "1.0.4",
+      "uuid": "bd0494ed-6a89-4494-b160-387831da9a45",
+      "rawTextureUuid": "00aa1b09-ac46-4a99-aaf5-ee3a404aeae4",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -1,
+      "offsetY": 0,
+      "trimX": 61,
+      "trimY": 362,
+      "width": 1530,
+      "height": 930,
+      "rawWidth": 1654,
+      "rawHeight": 1654,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

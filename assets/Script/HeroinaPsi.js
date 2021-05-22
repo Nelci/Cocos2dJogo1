@@ -36,8 +36,12 @@ cc.Class({
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, this.teclaPressionada, this);
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_UP, this.teclaSolta, this);
         cc.director.getCollisionManager().enabled = true;
-        
-
+        if ('touches' in cc.sys.capabilities) {
+            this.node.on(cc.Node.EventType.TOUCH_START, this.criaOnda, this);
+            // this.node.on(cc.Node.EventType.TOUCH_MOVE, this.mudarDirecao, this);
+            this.node.on(cc.Node.EventType.TOUCH_END, this.destroyOnda, this)
+        }
+        this.node.zIndex = 1;
     },
 
     start() {
@@ -47,20 +51,28 @@ cc.Class({
         this.onda.parent = this.node.parent;
         this.onda.position = this.node.position;
         this.onda.group = this.node.group;
-
+        let animation = this.getComponent(cc.Animation);
+        animation.play("Voando");
     },
-
-    teclaPressionada: function (event) {
-        if (event.keyCode == cc.macro.KEY.a) {
-            if (!cc.isValid(this.onda)){
-                this.atirar();
-            }
+    criaOnda: function() {
+        if (!cc.isValid(this.onda)){
+            this.atirar();
         }
     },
+    teclaPressionada: function (event) {
+        if (event.keyCode == cc.macro.KEY.a) {
+            this.criaOnda();
+        }
+    },
+    destroyOnda: function() {
+        this.onda.destroy();
+        let animation = this.getComponent(cc.Animation);
+        animation.play("Parado");
 
+    },
     teclaSolta: function (event) {
         if (event.keyCode == cc.macro.KEY.a) {
-            this.onda.destroy();
+            this.destroyOnda();
         }
     },
 

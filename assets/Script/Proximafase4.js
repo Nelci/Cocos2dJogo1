@@ -26,16 +26,15 @@ cc.Class({
         //     }
         // },
     },
-
-    // LIFE-CYCLE CALLBACKS:
-
-     onLoad : function() {
-         this.node.on('mousedown', function(envent){
-             cc.director.loadScene('Cena5')
-         })
-
-     },
-
+    onLoad: function () {
+        this.node.on('mousedown', this.proximaCena);
+        if ('touches' in cc.sys.capabilities) {
+            this.node.on(cc.Node.EventType.TOUCH_START, this.proximaCena, this);
+        }
+    },
+    proximaCena: function (envent) {
+        cc.director.loadScene('Cena5');
+    },
     start () {
 
     },

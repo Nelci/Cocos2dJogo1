@@ -49,6 +49,7 @@ cc.Class({
             return
         }
         if (this.node.scaleX <= this.scaleLimit.x && this.node.scaleY <= this.scaleLimit.y) {
+            this.resizeEmmited = true;
             this.node.emit("finish-resize",this);
         }
     },

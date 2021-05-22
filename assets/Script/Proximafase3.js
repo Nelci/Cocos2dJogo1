@@ -4,6 +4,7 @@
 //  - https://docs.cocos.com/creator/manual/en/scripting/reference/attributes.html
 // Learn life-cycle callbacks:
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
+
 cc.Class({
     extends: cc.Component,
 
@@ -26,14 +27,15 @@ cc.Class({
     },
 
     // LIFE-CYCLE CALLBACKS:
-
-     onLoad : function() {
-         this.node.on('mousedown', function(envent){
-             cc.director.loadScene('Cena4')
-         })
-
-     },
-
+    onLoad: function () {
+        this.node.on('mousedown', this.proximaCena);
+        if ('touches' in cc.sys.capabilities) {
+            this.node.on(cc.Node.EventType.TOUCH_START, this.proximaCena, this);
+        }
+    },
+    proximaCena: function (envent) {
+        cc.director.loadScene('Cena4');
+    },
     start () {
 
     },

@@ -50,7 +50,7 @@
         "__id__": 32
       },
       {
-        "__id__": 37
+        "__id__": 38
       }
     ],
     "_active": false,
@@ -1374,6 +1374,9 @@
       },
       {
         "__id__": 36
+      },
+      {
+        "__id__": 37
       }
     ],
     "_prefab": null,
@@ -1464,13 +1467,6 @@
       "__id__": 32
     },
     "_enabled": true,
-    "direcao": {
-      "__type__": "cc.Vec2",
-      "x": 0,
-      "y": 0
-    },
-    "velocidade": 5,
-    "keyDown": false,
     "_id": "abGVWy30lHAq31dccnEPC4"
   },
   {
@@ -1519,6 +1515,23 @@
     "_id": "8er7dlw1NFrY4elsoonvaL"
   },
   {
+    "__type__": "fd0d0K3AdJKxKcgCLLzE2BT",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 32
+    },
+    "_enabled": true,
+    "direcao": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "velocidade": 5,
+    "keyDown": false,
+    "_id": "34fThmMvlOhr+rq2/Qm00e"
+  },
+  {
     "__type__": "cc.Node",
     "_name": "Proximafase",
     "_objFlags": 0,
@@ -1529,10 +1542,10 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 38
+        "__id__": 39
       },
       {
-        "__id__": 39
+        "__id__": 40
       }
     ],
     "_prefab": null,
@@ -1588,7 +1601,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 37
+      "__id__": 38
     },
     "_enabled": true,
     "_materials": [
@@ -1620,7 +1633,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 37
+      "__id__": 38
     },
     "_enabled": true,
     "_id": "9fkbCmW/lA9LNr3T+RNkta"
