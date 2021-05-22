@@ -49,9 +49,11 @@ cc.Class({
         }
         if(event.keyCode == cc.macro.KEY.a){
             this.direcao.x = -1 * this.velocidade;
+            this.node.scaleX = this.node.scaleX > 0 ? this.node.scaleX * -1 : this.node.scaleX;
         }
         if(event.keyCode == cc.macro.KEY.d){
             this.direcao.x = 1 * this.velocidade;
+            this.node.scaleX = this.node.scaleX < 0 ? this.node.scaleX * -1 : this.node.scaleX;
         }
         if(event.keyCode == cc.macro.KEY.w){
             this.direcao.y = 1 * this.velocidade;

@@ -1,6 +1,6 @@
 {
   "ver": "2.3.5",
-  "uuid": "96a639fa-a6a3-4f31-8cce-db4cc57d3b25",
+  "uuid": "f28d2f6f-f16f-4e17-9396-58cb6545a772",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
@@ -11,10 +11,10 @@
   "height": 500,
   "platformSettings": {},
   "subMetas": {
-    "Patrimonial": {
+    "ViolenciaPsicologica": {
       "ver": "1.0.4",
-      "uuid": "60963498-0619-4c12-9416-9d7f417cb1da",
-      "rawTextureUuid": "96a639fa-a6a3-4f31-8cce-db4cc57d3b25",
+      "uuid": "45b4d382-4df8-4b27-843b-f0eb9823ac88",
+      "rawTextureUuid": "f28d2f6f-f16f-4e17-9396-58cb6545a772",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,

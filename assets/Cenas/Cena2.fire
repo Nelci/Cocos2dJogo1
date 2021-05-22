@@ -1528,12 +1528,12 @@
       "y": 0
     },
     "velocidade": 5,
-    "keyDown": false,
+    "moving": false,
     "_id": "34fThmMvlOhr+rq2/Qm00e"
   },
   {
     "__type__": "cc.Node",
-    "_name": "Proximafase",
+    "_name": "Saiba",
     "_objFlags": 0,
     "_parent": {
       "__id__": 1
@@ -1559,8 +1559,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1534,
-      "height": 1198
+      "width": 441,
+      "height": 154
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1571,16 +1571,16 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        834.621,
-        505.511,
+        871.334,
+        546.771,
         0,
         0,
         0,
         0,
         1,
-        0.11,
-        0.11,
-        0.11
+        0.344,
+        0.344,
+        0.344
       ]
     },
     "_eulerAngles": {
@@ -1594,7 +1594,7 @@
     "_is3DNode": false,
     "_groupIndex": 0,
     "groupIndex": 0,
-    "_id": "63NbAokhhEs5DmrWMnK3Pw"
+    "_id": "b7+2SaYB5BQ5DS5fXv2eAm"
   },
   {
     "__type__": "cc.Sprite",
@@ -1612,7 +1612,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "0a0936cd-719b-49b4-9391-73aab9bc97ba"
+      "__uuid__": "a9152caa-1f27-40b0-aa67-ddbe34df0616"
     },
     "_type": 0,
     "_sizeMode": 1,
@@ -1626,7 +1626,7 @@
     "_fillRange": 0,
     "_isTrimmedMode": true,
     "_atlas": null,
-    "_id": "51CMNjv+pJ+am3Ii9k9ebF"
+    "_id": "94NHb2vHtF144459EanxOn"
   },
   {
     "__type__": "5a6c2dsdGpIcrKLhS/LyjMW",
@@ -1636,6 +1636,6 @@
       "__id__": 38
     },
     "_enabled": true,
-    "_id": "9fkbCmW/lA9LNr3T+RNkta"
+    "_id": "d0tKZOzqxJHaS/CTGINHIp"
   }
 ]
