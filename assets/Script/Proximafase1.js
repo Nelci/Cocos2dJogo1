@@ -44,7 +44,7 @@ cc.Class({
     },
     faseConcluida: function (passou) {
         this.podePassar=passou;
-        this.node.opacity = 255;  
+        this.node.opacity = 255;
     },
     start() {
 

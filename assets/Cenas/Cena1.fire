@@ -1304,7 +1304,7 @@
       "y": 0
     },
     "floatVelocity": 0.2,
-    "floatTilt": 20,
+    "floatTilt": 19.8,
     "directionTilt": {
       "__type__": "cc.Vec2",
       "x": 0,
@@ -1658,7 +1658,7 @@
       "ctor": "Float64Array",
       "array": [
         728.356,
-        561.101,
+        557.101,
         0,
         0,
         0,
