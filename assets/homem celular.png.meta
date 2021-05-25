@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "7a49e273-3b15-4963-ae5f-617d1d7705fa",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "homem celular": {
+      "ver": "1.0.4",
+      "uuid": "e968984e-d2ee-414a-9bb7-c4ea09640631",
+      "rawTextureUuid": "7a49e273-3b15-4963-ae5f-617d1d7705fa",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -5,
+      "offsetY": 3.5,
+      "trimX": 185,
+      "trimY": 3,
+      "width": 120,
+      "height": 487,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

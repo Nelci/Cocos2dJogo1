@@ -1,0 +1,43 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "Dialogo1",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 16,
+  "sample": 1,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "fefbc381-547f-418f-b593-9b54ab1c60e1"
+            }
+          },
+          {
+            "frame": 5,
+            "value": {
+              "__uuid__": "3820f4a5-59e0-4258-ac5b-f32b0db6198c"
+            }
+          },
+          {
+            "frame": 10,
+            "value": {
+              "__uuid__": "ec7c9f1d-c720-4d9c-b1ac-64c94adbc09c"
+            }
+          },
+          {
+            "frame": 15,
+            "value": {
+              "__uuid__": "22106558-a9ec-4b90-8ded-02bc098c28a9"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "db005020-db96-49d8-aeab-74d28d649695",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "Continue se quiser DENUNCIAR (2)": {
+      "ver": "1.0.4",
+      "uuid": "cacd496f-1bc4-458a-9e96-a8bb08b5775c",
+      "rawTextureUuid": "db005020-db96-49d8-aeab-74d28d649695",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -0.5,
+      "trimX": 104,
+      "trimY": 1,
+      "width": 292,
+      "height": 499,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

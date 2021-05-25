@@ -60,7 +60,7 @@ cc.Class({
         }
     },
     teclaPressionada: function (event) {
-        if (event.keyCode == cc.macro.KEY.a) {
+        if (event.keyCode == cc.macro.KEY.b) {
             this.criaOnda();
         }
     },
@@ -71,7 +71,7 @@ cc.Class({
 
     },
     teclaSolta: function (event) {
-        if (event.keyCode == cc.macro.KEY.a) {
+        if (event.keyCode == cc.macro.KEY.b) {
             this.destroyOnda();
         }
     },

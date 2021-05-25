@@ -24,18 +24,27 @@ cc.Class({
         //         this._bar = value;
         //     }
         // },
+        podePassar: false
     },
 
     // LIFE-CYCLE CALLBACKS:
 
     onLoad: function () {
-        this.node.on('mousedown', this.proximaCena);
+        this.node.on('mousedown', this.proximaCena, this);
         if ('touches' in cc.sys.capabilities) {
             this.node.on(cc.Node.EventType.TOUCH_START, this.proximaCena, this);
         }
+        let canvas = cc.find("Canvas");
+        canvas.on('fase-concluida', (val)=>this.faseConcluida(val));
     },
     proximaCena: function (envent) {
-        cc.director.loadScene('Cena2');
+        if (this.podePassar){
+            cc.director.loadScene('Cena2');
+        }
+    },
+    faseConcluida: function (passou) {
+        this.podePassar=passou;
+        this.node.opacity = 255;  
     },
     start() {
 

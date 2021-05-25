@@ -5,7 +5,6 @@
 // Learn life-cycle callbacks:
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
-
 cc.Class({
     extends: cc.Component,
 
@@ -26,6 +25,8 @@ cc.Class({
         //     }
         // },
     },
+
+    // LIFE-CYCLE CALLBACKS:
     onLoad: function () {
         this.node.on('mousedown', this.proximaCena);
         if ('touches' in cc.sys.capabilities) {
@@ -41,5 +42,3 @@ cc.Class({
 
     // update (dt) {},
 });
-
-

@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "f35067a2-fdab-443d-87a8-234eeb194760",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "Falaaleatoria": {
+      "ver": "1.0.4",
+      "uuid": "d485be7d-6e69-4efc-971f-1eb604fc2161",
+      "rawTextureUuid": "f35067a2-fdab-443d-87a8-234eeb194760",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -1,
+      "offsetY": 0,
+      "trimX": 33,
+      "trimY": 128,
+      "width": 432,
+      "height": 244,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
