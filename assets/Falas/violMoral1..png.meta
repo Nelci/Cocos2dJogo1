@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "00653c16-e908-46a3-a44a-0a94de14d060",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "violMoral1.": {
+      "ver": "1.0.4",
+      "uuid": "67d81b54-e303-491b-b3ba-9ef2c5771573",
+      "rawTextureUuid": "00653c16-e908-46a3-a44a-0a94de14d060",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 9,
+      "trimY": 0,
+      "width": 482,
+      "height": 500,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "74fa5cd9-42c1-4f80-add6-228e16ae1786",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "violenciafisica2": {
+      "ver": "1.0.4",
+      "uuid": "36039692-1e5a-4e63-8d5e-b977267622ae",
+      "rawTextureUuid": "74fa5cd9-42c1-4f80-add6-228e16ae1786",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 500,
+      "height": 500,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

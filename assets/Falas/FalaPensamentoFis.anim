@@ -1,0 +1,37 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "FalaPensamentoFis",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 16,
+  "sample": 1,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "49f7fbe3-1f27-495b-b329-7122ecf56366"
+            }
+          },
+          {
+            "frame": 9,
+            "value": {
+              "__uuid__": "2cbea117-af58-4788-bead-469fee9f011c"
+            }
+          },
+          {
+            "frame": 15,
+            "value": {
+              "__uuid__": "0bd1f786-bbff-4ce4-a6cc-1021116fbe83"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

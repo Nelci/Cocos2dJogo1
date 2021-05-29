@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "a76374d1-5464-4bab-b50c-a4eb68a97299",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "ViolMora3.": {
+      "ver": "1.0.4",
+      "uuid": "e6fca65e-f928-45f8-9ec4-087f3619326c",
+      "rawTextureUuid": "a76374d1-5464-4bab-b50c-a4eb68a97299",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 500,
+      "height": 500,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

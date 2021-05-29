@@ -36,7 +36,8 @@ cc.Class({
         this.originalPosition = new cc.Vec2(this.node.x,this.node.y);
         cc.director.getCollisionManager().enabled = true;
         this.node.on("mousedown", this.iniciaMovimento, this);
-        this.node.on("mousemove", this.move, this);
+        let canvas = cc.find("Canvas");
+        canvas.on("mousemove", this.move, this);
         this.node.on("mouseup", this.terminaMovimento, this);
         if ('touches' in cc.sys.capabilities) {
             this.node.on(cc.Node.EventType.TOUCH_START, this.iniciaMovimento, this);

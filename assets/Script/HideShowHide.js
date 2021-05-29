@@ -24,19 +24,82 @@ cc.Class({
         //         this._bar = value;
         //     }
         // },
-        _colidiu: false
+        _sentido : 0,
+        _alvo: cc.Node,
+        _opacityRef: null,
+        _haveChange: false,
+        opacityChangeRate: 1,
+        opacityTarget: 125
     },
 
     // LIFE-CYCLE CALLBACKS:
 
-    // onLoad () {},
-
+    onLoad () {
+        this._opacityRef = this.node.opacity;
+        cc.director.getCollisionManager().enabled = true;
+        this.node.on('start-change', this.startChange, this);
+        this.node.on('stop-change', this.stopChange, this);
+    },
     start () {
 
     },
-    onCollisionEnter: function (outro, eu) {
-        this._colidiu = true;+
+    startChange: function (evnt) {
+        if (this._haveChange){
+            return;
+        }
+        this._haveChange = true;
+        if (this.node.opacity < this.opacityTarget ){
+            this._sentido = 1;
+        } else if (this.node.opacity > this.opacityTarget) {
+            this._sentido = -1;
+        } else {
+            this._sentido = 0;
+        }
+    },
+    change: function (evnt) {
+        if (!this._haveChange || !cc.isValid(this._alvo)){
+            return;
+        }
+        if (this.node.opacity == this.opacityTarget) {
+            return;
+        }
+        if (this._sentido > 0 && this.node.opacity > this.opacityTarget) {
+            this.node.opacity = this.opacityTarget;
+            return;
+        }
+        if (this._sentido < 0 && this.node.opacity < this.opacityTarget) {
+            this.node.opacity = this.opacityTarget;
+            return;
+        }
+        this.node.opacity += this._sentido * this.opacityChangeRate;
+
+    },
+    stopChange: function (evnt) {
+        if (!this._haveChange){
+            return;
+        }    
+        this._haveChange = false;
+        this._sentido = 0;
+        if (this.node.opacity != this.opacityTarget) {
+            this.node.opacity = this._opacityRef;
+        }
+    },
+    onCollisionEnter(outro, eu) {
+        if (this.node.group != outro.node.group){
+            return;
+        }
+        if (cc.isValid(this._alvo)){
+            return;
+        }
+
+        this._alvo = outro
+        
     },
     
-    // update (dt) {},
+    update (dt) {
+        if (!this._haveChange){
+            return;
+        }        
+        this.change();
+    },
 });

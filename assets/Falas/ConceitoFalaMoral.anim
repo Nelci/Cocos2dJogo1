@@ -1,0 +1,37 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "ConceitoFalaMoral",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 19,
+  "sample": 1,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "211ee8ad-96dd-42f7-89a8-e199a5594e75"
+            }
+          },
+          {
+            "frame": 10,
+            "value": {
+              "__uuid__": "ef68262f-870f-4125-a9ba-74f1ac0ac6c9"
+            }
+          },
+          {
+            "frame": 18,
+            "value": {
+              "__uuid__": "67d81b54-e303-491b-b3ba-9ef2c5771573"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

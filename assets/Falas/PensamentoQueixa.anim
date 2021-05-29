@@ -1,0 +1,37 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "PensamentoQueixa",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 6,
+  "sample": 1,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 1,
+            "value": {
+              "__uuid__": "93824cbb-7816-4cc2-b415-aab11baab024"
+            }
+          },
+          {
+            "frame": 3,
+            "value": {
+              "__uuid__": "b28babec-8a7d-4339-a10c-b3d3abfc8cb8"
+            }
+          },
+          {
+            "frame": 5,
+            "value": {
+              "__uuid__": "c4aca181-d5b3-4b24-a5b2-3b132ea29988"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

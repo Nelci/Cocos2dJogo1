@@ -1,0 +1,37 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "PensamentoPsi",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.4166666666666667,
+  "sample": 24,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0.041666666666666664,
+            "value": {
+              "__uuid__": "2094db22-1191-410f-97cb-930ad22de4f4"
+            }
+          },
+          {
+            "frame": 0.20833333333333334,
+            "value": {
+              "__uuid__": "4b27c3a0-4f00-46d8-a870-3178a25ba89a"
+            }
+          },
+          {
+            "frame": 0.375,
+            "value": {
+              "__uuid__": "12cf1040-c191-4964-a5ff-ce5c0fc06cc1"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

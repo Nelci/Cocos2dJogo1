@@ -1,5 +1,5 @@
 {
-  "last-module-event-record-time": 1621467345277,
+  "last-module-event-record-time": 1622285960750,
   "group-list": [
     "default",
     "Psicologico",
@@ -10,6 +10,9 @@
   ],
   "collision-matrix": [
     [
+      true,
+      null,
+      null,
       true
     ],
     [
@@ -22,7 +25,7 @@
       true
     ],
     [
-      false,
+      true,
       false,
       false,
       true
