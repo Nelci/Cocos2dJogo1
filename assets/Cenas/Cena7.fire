@@ -50,22 +50,22 @@
         "__id__": 38
       },
       {
-        "__id__": 42
+        "__id__": 43
       },
       {
-        "__id__": 46
+        "__id__": 48
       },
       {
-        "__id__": 50
+        "__id__": 53
       },
       {
-        "__id__": 54
-      },
-      {
-        "__id__": 56
+        "__id__": 58
       },
       {
         "__id__": 60
+      },
+      {
+        "__id__": 65
       }
     ],
     "_active": true,
@@ -1588,6 +1588,9 @@
       },
       {
         "__id__": 41
+      },
+      {
+        "__id__": 42
       }
     ],
     "_prefab": null,
@@ -1709,6 +1712,18 @@
     "_id": "a6xd12+pZO26PyoXaxFGmU"
   },
   {
+    "__type__": "26c73zYurZF9K8SaqjX3HKH",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 38
+    },
+    "_enabled": true,
+    "impedeMovimento": false,
+    "_podeMover": false,
+    "_id": "04EKR5joFJbouDesy9wOK1"
+  },
+  {
     "__type__": "cc.Node",
     "_name": "ViolenciaPsicologica",
     "_objFlags": 0,
@@ -1719,13 +1734,16 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 43
-      },
-      {
         "__id__": 44
       },
       {
         "__id__": 45
+      },
+      {
+        "__id__": 46
+      },
+      {
+        "__id__": 47
       }
     ],
     "_prefab": null,
@@ -1781,7 +1799,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 42
+      "__id__": 43
     },
     "_enabled": true,
     "_materials": [
@@ -1813,7 +1831,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 42
+      "__id__": 43
     },
     "_enabled": true,
     "tag": 0,
@@ -1834,7 +1852,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 42
+      "__id__": 43
     },
     "_enabled": true,
     "originalPosition": {
@@ -1847,6 +1865,18 @@
     "_id": "dfGvCo3CdE+ooTr4U7mmiB"
   },
   {
+    "__type__": "26c73zYurZF9K8SaqjX3HKH",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 43
+    },
+    "_enabled": true,
+    "impedeMovimento": false,
+    "_podeMover": false,
+    "_id": "dboX2Zv2pKX4bboZrrxLoW"
+  },
+  {
     "__type__": "cc.Node",
     "_name": "sexual",
     "_objFlags": 0,
@@ -1857,13 +1887,16 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 47
-      },
-      {
-        "__id__": 48
-      },
-      {
         "__id__": 49
+      },
+      {
+        "__id__": 50
+      },
+      {
+        "__id__": 51
+      },
+      {
+        "__id__": 52
       }
     ],
     "_prefab": null,
@@ -1919,7 +1952,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 46
+      "__id__": 48
     },
     "_enabled": true,
     "_materials": [
@@ -1951,7 +1984,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 46
+      "__id__": 48
     },
     "_enabled": true,
     "tag": 0,
@@ -1972,7 +2005,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 46
+      "__id__": 48
     },
     "_enabled": true,
     "originalPosition": {
@@ -1985,6 +2018,18 @@
     "_id": "7e1mMfoWBG14bkuhII6QbR"
   },
   {
+    "__type__": "26c73zYurZF9K8SaqjX3HKH",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 48
+    },
+    "_enabled": true,
+    "impedeMovimento": false,
+    "_podeMover": false,
+    "_id": "fasOJE9zZGU5GuZbW/X+pw"
+  },
+  {
     "__type__": "cc.Node",
     "_name": "Moral",
     "_objFlags": 0,
@@ -1995,13 +2040,16 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 51
+        "__id__": 54
       },
       {
-        "__id__": 52
+        "__id__": 55
       },
       {
-        "__id__": 53
+        "__id__": 56
+      },
+      {
+        "__id__": 57
       }
     ],
     "_prefab": null,
@@ -2057,7 +2105,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 50
+      "__id__": 53
     },
     "_enabled": true,
     "_materials": [
@@ -2089,7 +2137,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 50
+      "__id__": 53
     },
     "_enabled": true,
     "tag": 0,
@@ -2110,7 +2158,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 50
+      "__id__": 53
     },
     "_enabled": true,
     "originalPosition": {
@@ -2123,6 +2171,18 @@
     "_id": "c7E8MhNARFn5KEwcKYtSv3"
   },
   {
+    "__type__": "26c73zYurZF9K8SaqjX3HKH",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 53
+    },
+    "_enabled": true,
+    "impedeMovimento": false,
+    "_podeMover": false,
+    "_id": "14lPK/4BpBSoaIT/jjHdTZ"
+  },
+  {
     "__type__": "cc.Node",
     "_name": "Niv2",
     "_objFlags": 0,
@@ -2133,7 +2193,7 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 55
+        "__id__": 59
       }
     ],
     "_prefab": null,
@@ -2189,7 +2249,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 54
+      "__id__": 58
     },
     "_enabled": true,
     "_materials": [
@@ -2227,13 +2287,16 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 57
+        "__id__": 61
       },
       {
-        "__id__": 58
+        "__id__": 62
       },
       {
-        "__id__": 59
+        "__id__": 63
+      },
+      {
+        "__id__": 64
       }
     ],
     "_prefab": null,
@@ -2289,7 +2352,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 56
+      "__id__": 60
     },
     "_enabled": true,
     "_materials": [
@@ -2321,7 +2384,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 56
+      "__id__": 60
     },
     "_enabled": true,
     "tag": 0,
@@ -2342,7 +2405,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 56
+      "__id__": 60
     },
     "_enabled": true,
     "originalPosition": {
@@ -2355,6 +2418,18 @@
     "_id": "a6ndSMZ7RBJ43GrjSzBgLQ"
   },
   {
+    "__type__": "26c73zYurZF9K8SaqjX3HKH",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 60
+    },
+    "_enabled": true,
+    "impedeMovimento": false,
+    "_podeMover": false,
+    "_id": "25C6e4ylpMApnJnJyw8X07"
+  },
+  {
     "__type__": "cc.Node",
     "_name": "relacione",
     "_objFlags": 0,
@@ -2365,7 +2440,7 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 61
+        "__id__": 66
       }
     ],
     "_prefab": null,
@@ -2421,7 +2496,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 60
+      "__id__": 65
     },
     "_enabled": true,
     "_materials": [

@@ -24,22 +24,35 @@ cc.Class({
         //         this._bar = value;
         //     }
         // },
+        velocidade: 1000,
+        _direcao: cc.Vec2
     },
 
     // LIFE-CYCLE CALLBACKS:
-    onLoad: function () {
-        this.node.on('mousedown', this.proximaCena);
-        if ('touches' in cc.sys.capabilities) {
-            this.node.on(cc.Node.EventType.TOUCH_START, this.proximaCena, this);
+
+    // onLoad () {},
+
+    onCollisionEnter: function (outro, eu) {
+        if (this.node.group == outro.node.group){
+            return;
         }
-    },
-    proximaCena: function (envent) {
-        cc.director.loadScene('Cena5');
+        let posicaoOutro  = new cc.Vec2(outro.node.position.x, outro.node.position.y);
+        let direcao = posicaoOutro.sub(this.node.position);
+        direcao = direcao.normalize();
+        direcao.x = -1 * direcao.x;
+        this._direcao = direcao;
     },
     start () {
 
     },
 
-    // update (dt) {},
+    update: function (dt) {
+        let deslocamento = this._direcao.mul(this.velocidade * dt);
+        this.node.position = this.node.position.add(deslocamento);
+        if (this.node.x > (cc.winSize.width + this.node.width*this.node.scaleX) || this.node.x < (-1 * this.node.width*this.node.scaleX)){
+            this.node.destroy();
+        } else if (this.node.y > (cc.winSize.height + this.node.height*this.node.scaleY) || this.node.y < (-1 * this.node.height*this.node.scaleY)){
+            this.node.destroy();
+        }
+    },  
 });
-

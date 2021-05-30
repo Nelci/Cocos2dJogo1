@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "31f6fc6b-ac5d-4dcc-987a-23e0cebd2747",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1654,
+  "height": 1654,
+  "platformSettings": {},
+  "subMetas": {
+    "Amarelo Azul Estrelas Quadrinhos Super-Herói Convite-direita": {
+      "ver": "1.0.4",
+      "uuid": "189d5431-788a-402d-a62b-8668f03ed222",
+      "rawTextureUuid": "31f6fc6b-ac5d-4dcc-987a-23e0cebd2747",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -1.5,
+      "offsetY": -2,
+      "trimX": 277,
+      "trimY": 6,
+      "width": 1097,
+      "height": 1646,
+      "rawWidth": 1654,
+      "rawHeight": 1654,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

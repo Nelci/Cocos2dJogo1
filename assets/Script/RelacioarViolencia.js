@@ -35,40 +35,12 @@ cc.Class({
         this.node.zIndex = 1;
         this.originalPosition = new cc.Vec2(this.node.x,this.node.y);
         cc.director.getCollisionManager().enabled = true;
-        this.node.on("mousedown", this.iniciaMovimento, this);
-        let canvas = cc.find("Canvas");
-        canvas.on("mousemove", this.move, this);
-        this.node.on("mouseup", this.terminaMovimento, this);
-        if ('touches' in cc.sys.capabilities) {
-            this.node.on(cc.Node.EventType.TOUCH_START, this.iniciaMovimento, this);
-            this.node.on(cc.Node.EventType.TOUCH_MOVE, this.move, this);
-            this.node.on(cc.Node.EventType.TOUCH_END, this.terminaMovimento, this)
-        }
-    },
-    iniciaMovimento: function() {
-        if (this.relacionado == false) {
-            this.node.emit("start-move",this);
-            this._podeMover = true;
-        }
-    },
-    move: function(event) {
-        if( this._podeMover == true){
-            let posicaoMouse = event.getLocation();
-            posicaoMouse = new cc.Vec2(posicaoMouse.x, posicaoMouse.y);
-            this.node.setPosition(posicaoMouse);
-        }
-    },
-    terminaMovimento: function() {
-        if (this.relacionado == false) {
-            this.node.emit("end-move",this);
-            this._podeMover = false;
-        }
     },
     onCollisionEnter: function (outro, eu) {
         this.node.setPosition(this.originalPosition);
         this.node.opacity = 255;
-        this.relacionado = true;
-        this._podeMover = false;
+        let mouseMove = this.node.getComponent('MouseMove');
+        mouseMove.impedeMovimento = true;
     },
     start () {
 

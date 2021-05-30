@@ -34,7 +34,7 @@ cc.Class({
         }
     },
     proximaCena: function (envent) {
-        cc.director.loadScene('Cena5');
+        cc.director.loadScene('Cena6-2');
     },
     start () {
 
@@ -42,4 +42,5 @@ cc.Class({
 
     // update (dt) {},
 });
+
 
