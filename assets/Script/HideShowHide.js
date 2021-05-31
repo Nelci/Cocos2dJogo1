@@ -28,13 +28,16 @@ cc.Class({
         _alvo: cc.Node,
         _opacityRef: null,
         _haveChange: false,
+        _canvas: null,
         opacityChangeRate: 1,
-        opacityTarget: 125
+        opacityTarget: 125,
+        pontos: 100,
     },
 
     // LIFE-CYCLE CALLBACKS:
 
     onLoad () {
+        this._canvas = cc.find("Canvas");
         this._opacityRef = this.node.opacity;
         cc.director.getCollisionManager().enabled = true;
         this.node.on('start-change', this.startChange, this);
@@ -82,7 +85,9 @@ cc.Class({
         this._sentido = 0;
         if (this.node.opacity != this.opacityTarget) {
             this.node.opacity = this._opacityRef;
+            return;
         }
+        this._canvas.emit('gera-ponto', this.pontos);
     },
     onCollisionEnter(outro, eu) {
         if (this.node.group != outro.node.group){

@@ -26,13 +26,16 @@ cc.Class({
         // },
         originalPosition: cc.Vec2,
         relacionado: false,
-        _podeMover: false
+        pontos: 100,
+        _podeMover: false,
+        _canvas: null,
     },
 
     // LIFE-CYCLE CALLBACKS:
 
     onLoad () {
         this.node.zIndex = 1;
+        this._canvas = cc.find("Canvas");
         this.originalPosition = new cc.Vec2(this.node.x,this.node.y);
         cc.director.getCollisionManager().enabled = true;
     },
@@ -41,6 +44,7 @@ cc.Class({
         this.node.opacity = 255;
         let mouseMove = this.node.getComponent('MouseMove');
         mouseMove.impedeMovimento = true;
+        this._canvas.emit('gera-ponto', this.pontos);
     },
     start () {
 

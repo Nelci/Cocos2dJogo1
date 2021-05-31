@@ -2,7 +2,9 @@
   "title": "NewProject_FinalLuiz",
   "packageName": "org.cocos2d.demo",
   "startScene": "c25bcf57-06c7-4929-8a36-86c65534416b",
-  "excludeScenes": [],
+  "excludeScenes": [
+    "92cd4fec-7170-4b10-8eb7-f6f8e54dbc7e"
+  ],
   "orientation": {
     "landscapeLeft": true,
     "landscapeRight": true,

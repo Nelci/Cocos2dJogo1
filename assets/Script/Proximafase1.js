@@ -38,9 +38,11 @@ cc.Class({
         canvas.on('fase-concluida', (val)=>this.faseConcluida(val));
     },
     proximaCena: function (envent) {
-        if (this.podePassar){
-            cc.director.loadScene('Cena2');
+        if (this.podePassar==false){
+            return;
         }
+        cc.director.loadScene('Cena2');
+        
     },
     faseConcluida: function (passou) {
         this.podePassar=passou;

@@ -24,13 +24,18 @@ cc.Class({
         //         this._bar = value;
         //     }
         // },
+        _canvas: null,
+        pontos: 100
     },
 
     // LIFE-CYCLE CALLBACKS:
 
-    // onLoad () {},
+    onLoad () {
+        this._canvas = cc.find("Canvas");
+    },
     onCollisionEnter: function (outro, eu) {
         outro.node.destroy();
+        this._canvas.emit('gera-ponto', this.pontos);
     },
     
     start () {

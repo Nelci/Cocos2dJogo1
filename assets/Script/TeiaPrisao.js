@@ -24,10 +24,12 @@ cc.Class({
         //         this._bar = value;
         //     }
         // },
-        TeiaPrefab: cc.Prefab,
-        PrisaoPrefab: cc.Prefab,
-        teia: cc.Node,
-        colidiu: false,
+        teiaPrefab: cc.Prefab,
+        prisaoPrefab: cc.Prefab,
+        pontos: 100, 
+        _colidiu: false,
+        _teia: cc.Node,
+        _canvas: null
     },
 
     // LIFE-CYCLE CALLBACKS:
@@ -35,6 +37,7 @@ cc.Class({
     // onLoad () {},
 
     start () {
+        this._canvas = cc.find("Canvas");
         // this.node.on("mousemove", this.mudarDirecao, this);
         this.node.on("mousedown", this.surgeTeia, this);
         cc.director.getCollisionManager().enabled = true;
@@ -46,29 +49,30 @@ cc.Class({
         }
     },
     onCollisionEnter: function (outro, eu) {
-        this.colidiu = true;
+        this._colidiu = true;
     },
     onCollisionExit: function (outro, eu) {
-        this.colidiu = false;
+        this._colidiu = false;
     },
     surgeTeia(event){
-        if (this.colidiu == false) {
+        if (this._colidiu == false) {
             return;
         }
-        if (cc.isValid(this.teia)) {
+        if (cc.isValid(this._teia)) {
             return;
         }
-        this.teia = cc.instantiate(this.TeiaPrefab);
-        this.teia.parent = this.node.parent;
-        this.teia.position = this.node.position;
-        this.teia.group = this.node.group;
-        this.teia.on("finish-resize", (target)=> {
+        this._teia = cc.instantiate(this.teiaPrefab);
+        this._teia.parent = this.node.parent;
+        this._teia.position = this.node.position;
+        this._teia.group = this.node.group;
+        this._teia.on("finish-resize", (target)=> {
             target.node.destroy();
+            this._canvas.emit('gera-ponto', this.pontos);
             this.node.destroy()
         });
     },
     onDestroy () {
-        let goodvibe = cc.instantiate(this.PrisaoPrefab);
+        let goodvibe = cc.instantiate(this.prisaoPrefab);
         goodvibe.parent = this.node.parent;
         goodvibe.position = this.node.position;
         goodvibe.group = this.node.group;

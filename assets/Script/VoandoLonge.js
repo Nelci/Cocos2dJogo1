@@ -25,12 +25,16 @@ cc.Class({
         //     }
         // },
         velocidade: 1000,
-        _direcao: cc.Vec2
+        pontos: 100,
+        _direcao: cc.Vec2,
+        _convas: null
     },
 
     // LIFE-CYCLE CALLBACKS:
 
-    // onLoad () {},
+    onLoad () {
+        this._canvas = cc.find("Canvas");
+    },
 
     onCollisionEnter: function (outro, eu) {
         if (this.node.group == outro.node.group){
@@ -41,6 +45,7 @@ cc.Class({
         direcao = direcao.normalize();
         direcao.x = -1 * direcao.x;
         this._direcao = direcao;
+        this._canvas.emit('gera-ponto', this.pontos);
     },
     start () {
 

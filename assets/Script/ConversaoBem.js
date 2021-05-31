@@ -36,8 +36,6 @@ cc.Class({
         goodvibe.parent = this.node.parent;
         goodvibe.position = this.node.position;
         goodvibe.group = this.node.group;
-        let canvas = cc.find("Canvas");
-        canvas.emit('conversao-bem', 1);
     },
 
     // update (dt) {},

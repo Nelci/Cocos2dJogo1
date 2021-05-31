@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "6b16418f-95dd-44ca-9fdb-4bd69edd9a2d",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1920,
+  "height": 1080,
+  "platformSettings": {},
+  "subMetas": {
+    "Overgame": {
+      "ver": "1.0.4",
+      "uuid": "04b61040-5f7c-4da1-bc55-84c159cb554c",
+      "rawTextureUuid": "6b16418f-95dd-44ca-9fdb-4bd69edd9a2d",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 1920,
+      "height": 1080,
+      "rawWidth": 1920,
+      "rawHeight": 1080,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -22,16 +22,20 @@ cc.Class({
         // ...
         direcao: cc.Vec2,
         velocidade: 10,
+        pontos: 100,
+        _canvas: null
     },
 
     // LIFE-CYCLE CALLBACKS:
     onLoad: function () {
         this.direcao = this.direcao.normalize();
+        this._canvas = cc.find("Canvas");
     },
 
     onCollisionEnter: function (outro, eu) {
         console.log("colidiu");
         outro.node.destroy();
+        this._canvas.emit('gera-ponto', this.pontos);
         eu.node.destroy();
     },
 

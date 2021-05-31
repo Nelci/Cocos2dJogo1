@@ -4,7 +4,7 @@
 //  - https://docs.cocos.com/creator/manual/en/scripting/reference/attributes.html
 // Learn life-cycle callbacks:
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
-
+let Globals = require("Globals");
 cc.Class({
     extends: cc.Component,
 
@@ -25,7 +25,11 @@ cc.Class({
         //     }
         // },
         _totalConvertido: 0,
-        _canvas: null
+        _canvas: null,
+        _timer: null,
+        tempoMaxCenaMs: 60 * 1000,
+        minimo: 300,
+        cena: 'cena1'
     },
 
     // LIFE-CYCLE CALLBACKS:
@@ -34,11 +38,16 @@ cc.Class({
 
     start () {
         this._canvas = cc.find("Canvas");
-        this._canvas.on('conversao-bem', (val)=>this.contaConversao(val));
+        this._canvas.on('gera-ponto', (val)=>this.contaPonto(val), this);
+        this._timer = setTimeout(()=>{
+            cc.director.loadScene('CenaGameOver');
+        },this.tempoMaxCenaMs);
     },
-    contaConversao (val) {
+    contaPonto (val) {
         this._totalConvertido += val;
-        if (this._totalConvertido >= 4) {
+        Globals[this.cena].score = this._totalConvertido;
+        if (this._totalConvertido >= this.minimo) {
+            clearTimeout(this._timer);
             this._canvas.emit('fase-concluida', true);
         }
     }
