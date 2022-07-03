@@ -32,20 +32,11 @@ cc.Class({
         if ('touches' in cc.sys.capabilities) {
             this.node.on(cc.Node.EventType.TOUCH_START, this.proximaCena, this);
         }
-        let canvas = cc.find("Canvas");
-        canvas.on('fase-concluida', (val)=>this.faseConcluida(val));
     },
     proximaCena: function (envent) {
-        if (this.podePassar==false){
-            return;
-        }
-        cc.director.loadScene('Cena5-pre');
+        cc.director.loadScene('Cena7');
     },
-    faseConcluida: function (passou) {
-        this.podePassar=passou;
-        this.node.opacity = 255;
-    },
-    start () {
+    start() {
 
     },
 

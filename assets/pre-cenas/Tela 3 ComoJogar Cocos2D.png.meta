@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "1e5d4e09-d5c3-4964-8c48-b53b3808f14e",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1920,
+  "height": 1080,
+  "platformSettings": {},
+  "subMetas": {
+    "Tela 3 ComoJogar Cocos2D": {
+      "ver": "1.0.4",
+      "uuid": "8146dd82-4377-4e23-b77e-60330363eb42",
+      "rawTextureUuid": "1e5d4e09-d5c3-4964-8c48-b53b3808f14e",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 1920,
+      "height": 1080,
+      "rawWidth": 1920,
+      "rawHeight": 1080,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

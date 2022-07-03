@@ -16,7 +16,7 @@
   "inlineSpriteFrames_native": true,
   "mainCompressionType": "default",
   "mainIsRemote": false,
-  "optimizeHotUpdate": false,
+  "optimizeHotUpdate": true,
   "md5Cache": true,
   "nativeMd5Cache": true,
   "encryptJs": true,
@@ -25,7 +25,7 @@
   "fb-instant-games": {},
   "android": {
     "REMOTE_SERVER_ROOT": "",
-    "packageName": "org.cocos2d.demo"
+    "packageName": "br.com.nelcisgomes.primaveragirlpower"
   },
   "ios": {
     "REMOTE_SERVER_ROOT": "",

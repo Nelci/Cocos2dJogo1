@@ -39,7 +39,7 @@ cc.Class({
         if (this.podePassar==false){
             return;
         }
-        cc.director.loadScene('Cena7');
+        cc.director.loadScene('Cena7-pre');
     },
     faseConcluida: function (passou) {
         this.podePassar=passou;

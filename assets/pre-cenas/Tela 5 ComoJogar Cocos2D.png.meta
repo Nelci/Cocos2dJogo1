@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "121d5094-60b8-4fd8-84fa-45b0112a97a8",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1920,
+  "height": 1080,
+  "platformSettings": {},
+  "subMetas": {
+    "Tela 5 ComoJogar Cocos2D": {
+      "ver": "1.0.4",
+      "uuid": "09973fb9-e513-4d51-a420-7c49a9c43be7",
+      "rawTextureUuid": "121d5094-60b8-4fd8-84fa-45b0112a97a8",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 1920,
+      "height": 1080,
+      "rawWidth": 1920,
+      "rawHeight": 1080,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
