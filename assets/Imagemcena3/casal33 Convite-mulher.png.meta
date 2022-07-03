@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "efea98e7-f138-437f-a5b2-f198ddd73f00",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 936,
+  "height": 1654,
+  "platformSettings": {},
+  "subMetas": {
+    "casal33 Convite-mulher": {
+      "ver": "1.0.4",
+      "uuid": "52991686-8201-44b6-97b2-2b624dfa87c4",
+      "rawTextureUuid": "efea98e7-f138-437f-a5b2-f198ddd73f00",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -50.5,
+      "offsetY": -71.5,
+      "trimX": 37,
+      "trimY": 144,
+      "width": 761,
+      "height": 1509,
+      "rawWidth": 936,
+      "rawHeight": 1654,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

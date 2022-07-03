@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "5b51eb92-a0c5-49dc-b7cb-82dbc48e9455",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1920,
+  "height": 1080,
+  "platformSettings": {},
+  "subMetas": {
+    "Avance tela versao 2.01 (2)": {
+      "ver": "1.0.4",
+      "uuid": "934a6623-f46b-4c0b-9141-0142425a7140",
+      "rawTextureUuid": "5b51eb92-a0c5-49dc-b7cb-82dbc48e9455",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 1920,
+      "height": 1080,
+      "rawWidth": 1920,
+      "rawHeight": 1080,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "076ace45-006f-44d7-989a-0232ac3285d7",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1171,
+  "height": 1654,
+  "platformSettings": {},
+  "subMetas": {
+    "casal33 Convite-homem": {
+      "ver": "1.0.4",
+      "uuid": "671fbf21-b0ac-440c-8997-d37e908b2221",
+      "rawTextureUuid": "076ace45-006f-44d7-989a-0232ac3285d7",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -15.5,
+      "offsetY": -19,
+      "trimX": 27,
+      "trimY": 39,
+      "width": 1086,
+      "height": 1614,
+      "rawWidth": 1171,
+      "rawHeight": 1654,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -20,10 +20,10 @@
         "__id__": 7
       },
       {
-        "__id__": 9
+        "__id__": 10
       },
       {
-        "__id__": 11
+        "__id__": 12
       }
     ],
     "_active": true,
@@ -292,6 +292,9 @@
     "_components": [
       {
         "__id__": 8
+      },
+      {
+        "__id__": 9
       }
     ],
     "_prefab": null,
@@ -324,7 +327,7 @@
         0,
         0,
         1,
-        0.586,
+        0.539,
         0.586,
         0.586
       ]
@@ -358,7 +361,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "83db0532-caf4-45d3-8a20-3e83031d7009"
+      "__uuid__": "934a6623-f46b-4c0b-9141-0142425a7140"
     },
     "_type": 0,
     "_sizeMode": 1,
@@ -375,6 +378,16 @@
     "_id": "c6ST9du9FB5rdJHBkYrh8m"
   },
   {
+    "__type__": "08d27ZXl3JLiIkittiZKLmL",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 7
+    },
+    "_enabled": true,
+    "_id": "59UE03KVRB+JFfDV0cvud+"
+  },
+  {
     "__type__": "cc.Node",
     "_name": "I3-Epic - Brave Heart",
     "_objFlags": 0,
@@ -385,7 +398,7 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 10
+        "__id__": 11
       }
     ],
     "_prefab": null,
@@ -441,7 +454,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 9
+      "__id__": 10
     },
     "_enabled": true,
     "_clip": {
@@ -466,10 +479,10 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 12
+        "__id__": 13
       },
       {
-        "__id__": 13
+        "__id__": 14
       }
     ],
     "_prefab": null,
@@ -525,7 +538,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 11
+      "__id__": 12
     },
     "_enabled": true,
     "_materials": [
@@ -558,7 +571,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 11
+      "__id__": 12
     },
     "_enabled": true,
     "_id": "14UUgr4RNEfq7ObgCUYeSJ"
